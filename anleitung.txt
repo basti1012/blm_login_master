@@ -1,0 +1,48 @@
+ 
+BLM = Basti’s Login Master.
+Dieser Code darf nach eigenen Ermessen geändert werden.
+Erstellt am 22.08.2020.
+Update am 01.09.2020
+veröffentlicht am 01.09.2020 auf github.de
+
+1. Bitte die Zip-Datei auf den Rechner entpacken.
+2. Den Ordner auf ihren Webserver hochladen.
+3. Öffnen Sie die index.php
+4. Sie werden dann durch den Installation Vorgang geleitet.
+5. Nach erfolgreicher Installation können sie sich registrieren.
+6. Admin Zugang hat einen vorinstallierten User mit den Namen 333 und Password 333
+
+Nun viel Spaß mit dem Tool.
+Bitte helfen Sie mir das Tool zu verbessern.,
+bei Problemen, Bugs und Verbesserung Vorschläge schreiben sie mir bitte eine E-Mail an basti1012@soforthilfe-forum.de
+MfG
+Basti1012.
+
+
+/////////////////////////////////////////////////////////////////////////
+
+BLM = Basti's login master.
+This code can be changed at your own discretion.
+Created on 08/22/2020.
+Update on September 1st, 2020
+published on 01.09.2020 on github.de
+
+1. Please unzip the zip file on your computer.
+2. Upload the folder to your web server.
+3. Open the index.php
+4. You will then be guided through the installation process.
+5. After successful installation you can register.
+6. Admin access has a pre-installed user with the name 333 and password 333
+
+Now have fun with the tool.
+Please help me to improve the tool.,
+if you have problems, bugs or suggestions, please send me an email to basti1012@soforthilfe-forum.de
+Kind regards
+Basti1012.
+
+
+
+
+
+
+
