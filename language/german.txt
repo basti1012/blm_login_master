@@ -1,0 +1,309 @@
+<?php
+//index.php
+$language['title_login']='Benutzer Login';
+$language['text_login']='Du bist schon eingeloggt';
+$language['logout']='Abmelden';
+$language['succes_login']='Du hast dich erfolgreich ausgeloggt';
+$language['placeholder_name']='Name oder E-mail';
+$language['placeholder_password']='Passwort';
+$language['placeholder_submit']='Einloggen';
+$language['user_login_text']='User anmeldung';
+$language['no_accound']='Noch keinen Account?';
+$language['pw_forgotten']='Hast du dein Passwort vergessen?';
+$language['title_install']='Login System Installation';
+$language['login_name_1']='Eingeloggt als ';
+$language['login_name_admin_1']='auch eingeloggt als Admin ';
+$language['admin_link']="Admin Einstellungen";
+
+
+//passwordreset.php
+$language['title_pw_forgotten']='Neues Passwort anfordern';
+$language['success_email']='Die Email wurde versendet<br>Checke deinen Email accound';
+$language['error_email']='Diese Email Adresse ist nicht angemeldet';
+$language['pw_forgotten']='Passwort vergessen?';
+$language['placeholder_email']='Email';
+$language['submit_forgotten']='Zurücksetzen';
+
+//setpassword.php
+$language['title_new_pw']='Gebe ein neues Passwort ein';
+$language['link_login']='Zum Login';
+$language['pw_ne_success']='Das Passwort wurde geändert';
+$language['one_pw_wrong']='Die Passwörter stimmen nicht überein';
+$language['new_pw_give_in']='Neues Passwort setzen';
+$language['placeholder_password']='Password';
+$language['placeholder_pw_two']='Password wiederholen';
+$language['submit_pw']='Passwort setzen';
+$language['error_token']='Der Token ist ungültig';
+$language['link_new_pw']='Neues Passwort anfordern';
+$language['error_token2']='Kein gültiger Token gesendet';
+$language['link_new_pw2']='Neues Passwort anfordern';
+//login.php
+$language['error_pw']='Pw falsch';
+$language['error_user']='User gibt es nicht';
+
+
+//geheim.php
+$language['error_secret']='Den Inhalt kannst du nur eingeloggt sehen';
+$language['title_aecret']='Geheime Seite';
+$language['secret_logout']='Abmelden';
+$language['secret_h1']='Beispiel Seite <br> Überschrift ';
+$language['work_profil']='Deine Daten bearbeiten ?';
+
+
+
+//register.php
+//profil.php
+ $language['register_title']='Registration Login-System';
+ $language['success_acound']='Dein Account wurde angelegt';
+ $language['error_acound_pw']='Die Passwörter stimmen nicht überein';
+ $language['erroremail']='Email bereits vergeben';
+ $language['error_username']='Der Username ist bereits vergeben';
+ $language['new_acound']='Account erstellen';
+ $language['new_username']='Benutzer Name';
+ $language['new_email']='Email angeben';
+ $language['new_acound_pw']='Passwort angeben';
+ $language['new_acound_pw1']='Password wiederholen';
+ $language['new_submit']='Benutzer Erstellen';
+ $language['you_have_acound']='Hast du bereits einen Account?';
+ 
+
+
+//profil.php
+$language['title_profil']='Profil bearbeiten von ';
+$language['title_profil_no_login']="Bitte einloggen um dein Profil bearbeiten zu können";
+$language['form_profil_from']='Profil bearbeiten von ';
+$language['profil_registri_time']='Angemeldet seid seid '; 
+$language['profil_zwoname']='Nachname';
+$language['pw_two']='Password wiederholen';
+$language['profil_email']='Email Adresse';
+$language['profil_gender']='Geschlecht';
+$language['profil_gender_male']='Männlich';
+$language['profil_gender_female']='Weiblich';
+$language['profil_gender_gender']='Beides';
+$language['profil_phone']='Telefonnummer';
+$language['placeholder_phone']='12345(7896)';
+$language['profil_adress']='Adresse';
+$language['placeholder_adress']='Adresse eingeben';
+$language['profil_town']='Stadt';
+$language['placeholder_town']='Stadt Namen eingeben';
+$language['profil_land']='Land ( wohnland)';
+$language['placeholder_plz']='Postleitzahl';
+$language['profil_plz']='Postleitzahl';
+$language['placeholder_profil_text']='Beschreibe dich oder sonst was';
+$language['profil_text']='Beschreibe dich';
+$language['submit_profil']='Profil aktualiesieren';
+$language['profil_logout']='Ausloggen';
+$language['placeholder_firstname']='Vorname ( Nickname )';
+$language['placeholder_zwoname']='Nachname';
+$language['placeholder_email']='E-mail adresse anegeben';
+$language['profil_you_must_login']='Du mußt eingeloggt sein um dein Profil sehen zu können';
+$language['profil_login']='Login';
+$language['profil_registri']='Registrieren';
+$language['hack']='Lass das hacken sein';
+$language['user_name_givet_not']='Username gibt es nicht du hacker';
+$language['prfil_update_ok']='Upfate wahr erfolgreich';
+$language['error_hack']='Du wurdest beim hacking versuch erwischt';
+$language['user_data_new']='User Daten';
+$language['is_changed']='geändert';
+
+
+
+
+
+//admin.php
+$language['title_admin']='Admin einstellungen';
+$language['title_admin_no_login']='Zughang nur für Admin';
+$language['admin_error_report']='Error reporting an/aus';
+$language['admin_error_report_text']='Nur zum Debugging aktivieren';
+$language['admin_error_report_file']='Error reporting in file schreiben an/aus';
+$language['admin_secret_link']='Link umleitung nach Login';
+$language['placeholder_secret_link']='geheim.php oder http://neispiel.de/geheim.php';
+$language['admin_secret_link_text']='Text der angezeigt wird';
+$language['placeholder_secret_link_text']='Geheime Seite';
+$language['admin_Name']='Admin Name';
+$language['placeholder_admin_Name']='Admin name eingeben';
+$language['admin_passwort']='Admin Passwort';
+$language['placeholder_admin_Name']="Für neues Passwort ausfüllen";
+$language['admin_hint_text']='Die Daten werden für die Admin Oberfläche gebrauch<br>Wer keine Admin oberfläche brauch kann die einstellungen auch direkt bei phpadmnin ändern<br>admin_system.php kann auch gelöscht werden ( erhöht die Sicherheit )';
+$language['admin_language_file']='Wähle eine Sprachdatei ( deafault german )';
+$language['admin_placeholder_language_file']='Voreingestellt Deutsch';
+$language['admin_email_text']='Email text';
+$language['placeholder_admin_email_text']='Gebe einen Email Text an der beim zurücksetzen angezeigt wird';
+$language['admin_email_sent_email']='Absender Email Adresse';
+$language['admin_email_sent_email_checkbox']='Absenderemail mit im header setzen ? ';
+$language['admin_placeholder_email_sent_email']='beispiel@irgendwas.de';
+$language['admin_email_antwort_email']='Antworts Email Adresse';
+$language['admin_email_antwort_email_checkbox']='Anwortsemail mit im header setzen ? ';
+$language['admin_placeholder_email_antwort_email']='beispiel@irgendwas.de';
+$language['admin_email_header']='Email header angaben';
+$language['admin_email_header_hint']='In jeder Zeile einen Header eintrag erstellen und mit <br> eine neue Zeile beginnen';
+$language['submit_admin']='Einstellungen aktuliesieren';
+$language['admin_email_header_placeholder']='
+MIME-Version: 1.0
+Content-type: text/html; charset=utf-8
+X-Mailer: PHP ".phpversion();';
+
+$language['no_admin_in']='Zugang nur als Admin';
+$language['admin_login_name']='Admin Name';
+$language['admin_login_pw']='Admin Passwort';
+$language['admin_login_submit']='Admin login';
+$language['placeholder_admin_pw']='Admin Passwort eingeben';
+$language['placeholder_admin_name']='Admin Name eingeben';
+$language['admin_pw_wrong']='Falsche Zugangsdaten';
+$language['admin_no_post']='Bitte Zugangsdaten angeben';
+$language['admin_pw_ok']='Zugangsdaten Korrekt';
+$language['admin_session_ok']='Du bist schon als Admin eingeloggt';
+$language['admin_email_betreff']='Email Betreff';
+$language['placeholder_admin_email_betreff']='ZB: Ihr Neues Passwort';
+$language['favicon_checkbox']='Alle Favicons Meta Datein setzen';
+$language['admin_baseline_placeholder']='http://beispeiel.de';
+$language['admin_baseline']='Baseline Link angeben *';
+$language['admin_email_baseline_hint']='Wird nur bei probleme mit den relativen  Links gebraucht';
+$language['sdmin_logout']='Log dich wieder aus';
+$language['admin_error_file_link']='Error Log einsehen';
+$language['kill_link']='Lösche die Error Log Datei';
+$language['kill_success']='Error Log wurde gelöscht';
+$language['admin_h1_text']='Admin zugang';
+$language['admin_nickname']='Name ( Nickname ) *';
+$language['admin_password']='Password';
+$language['admin_files_save']='Admin Daten gespeichert';
+$language['capcha_admin_text']='Captcha bei Registrierung aktivieren';
+ $language['time_in_seconds_to_logout']='Zeit in Sekunden bis zum automatischen Logout';
+ $language['login_time_text']='Zeit bis zum Logout anzeigen';
+ $language['auto_logout_hint']='Gebe eine Zeit in Sekunden an bis du ausgeloggt wirsd';
+$language['show_scripte_button']='Zeige Fremdscripte';
+$language['scripte_hosting_text_hint']='Damit Fremdscripte keine Cookies setzen oder sonst irgendwelche Daten von ihnen speichert<br>
+empfiehlt es sich die Scripte selber auf ihren Server zu hosten.
+So haben sie die DSGVO mehr unter Kontrolle';
+$language['admin_logout']='Admin Logout';
+$language['email_text_hint']='Der Platzhalter {link} zeigt in der email den Password Reset Link an ';
+//register.php
+$language['register_not_login']="Du bist eingeloggt und brachst dich somit auch nicht regestrieren";
+$language['register_4_letter']='Passwort muß mindestens 4 Zeichen haben';
+$language['register_pw_not_pw']='Passwörter stimmen nicht überein';
+$language['register_passwort_again']='Du mußt das Passwort wiederholen';
+$language['register_ist_empty']='Gebe ein Passwort ein';
+$language['register_username_is_empty']='Du mußt einen User Namen eingeben';
+    $language['email_not_valide']='Email adresse ist nicht Valide';
+    $language['email_is_empty']='Gebe eine Email Adresse ein';
+    $language['is_inputs_empty']='Du mußt alle Pflichtfelder (* ) ausfüllen';
+    $language['user_name_givet']='User Name gibt es schon';
+    $language['email_givet_in']='Emailadresse gibt es schon';
+
+
+   $language['regisdter_link_active']='Aktivierungs Email bestätigen?';
+   $language['email_register_hint']='Bei aktivierter Checkbox müssen deine User erst einen Link in der Email bestätigen bevor sie Freigeschaltet sind,Beim Email Text drauf achten das {registerlink} der Platzhalter für den aktivirungs Link ist';
+   $language['register_email_betreff']='Betreff für Aktivierungs Email';
+   $language['register_email_text']='Email Text für registrierungs Email';
+   $language['admin_email_text_activ_placeholder']='Email Text eingeben';
+   $language['admin_email_betreff_activ_placeholder']='Betreff angabe';
+
+
+
+
+
+
+
+
+
+$language['register_in_ok']='Du wurdest erfolgreich registriert';
+$language['sometimes_errror']='Bei der Anmeldung ist ein Fehler aufgetreten.';
+$language['more_errors']='es sind noch fehler aufgetretten';
+$language['register_legend']='Registrierung';
+$language['register_name']='Name ( Nickname ) *';
+$language['register_next_name']='Nach Name';
+$language['register_password']='Password *';
+$language['register_password_two']='Password wiederholen *';
+$language['register_email']='E-Mail *';
+$language['genders']='Geschlecht';
+$language['register_man']='Male';
+$language['register_woman']='Female';
+$language['register_man_wom']='Gender';
+$language['register_phone']='Telefonnummer';
+$language['register_adress']='Address';
+$language['register_town']='Stadt';
+$language['register_land']='Land';
+$language['register_plz']='Postleitzahl';
+$language['register_comment']='Profil beschreibung';
+$language['register_send']='Registrierung abschicken';
+$language['register_text']=' Pflichtfelder (*) .Alle anderen Felder können später in den Profil geändertwerden';
+$language['register_login_name']='Eingeloggt als ';
+$language['navigation_home']='Home';
+$language['admin_not_login_link']='Admin Login';
+$language['register_wrong_capacha']='Du hast den Captcha-Code falsch eingegeben!';
+$language['data_link_text']='Datenschutz';
+$language['logout_link_login']='Wieder einloggen ?';
+$language['logout_no_accound']='Zur registrierung';
+$language['you_logged_out']='Du wurdest erfolgreich ausgeloggt';
+$language['title_logout']='Du wurdest ausgeloggt';
+$language['captcha_input']='Code Eingabe';
+$language['data_text']='Datenscutz gelesen ?';
+$language['data_checkbox_not_true']='Sie müßen den Datenschutz lesen';
+$language['scripte_hosting_text']='Scripte selber hosten ?';
+     //delete.php
+$language['placeholder_kill_name']='Your Name';
+$language['kil_back_index']='Zurück';
+$language['kill_profil_link']='Zum Profil';
+$language['kill_user_text']='Gebe deinen Namen ein um dein Accound endgültig zu löschen';
+$language['title_kill_accound']='Willst du deinen Accound wirklich Löschen';
+$language['kill_your_accound_submit']='Accound wirklich endgültig löschen';
+$language['accound_kill_ok']='Accound wurde gelöscht';
+$language['kill_profil_link_register']='Zum neue regitrieren hier klicken';
+$language['_go_to_kill']='Accound löschen';
+$language['name_is_not_session']='Name passt nicht zu deiner session';
+$language['kill_not_logged']='Du bist nicht eingeloggt';
+$language['back']='Zurück';
+$language['user_admin_work']='User bearbeiten';
+$language['datenschutz_checkbox']='Datenschutz aktivieren ?';
+$language['datenschutz_textin']='Datenschutz text eingeben';
+$language['datenschutz_hint']='Gebe deinen Datenschutz Hinweiß ein den  derBesucher bestätigen muß um sich zu Registrieren';
+
+
+// admin_user.php
+$language['admin_user_delete_user']='Benutzer wurde gelöscht mit der Id';
+$language['createt_now']='wurde erstellt <br>';
+$language['dsgvo']='Achtung DSGVO';
+$language['dsgvo_text']='Alle Scripte und Css Datein wurden auf ihren eigenen Server geladen<br>
+    Jetzt werdern die Scripte nicht mehr vom Fremden Webseiten geladen';
+$language['not_login_as_admin']='Du mußt als Admin eingeloggt sein um die Seite aufrufen zu können';
+$language['no_hacking']='Lass Das Hacken sein';
+$language['no_open_this_site']='Die Seite darf so nicht aufgerufen werden';
+$language['admin_user_works']='<h3>Username,Email und Accound löschen und ändern</h3>';
+$language['admin_user_data1']='User Daten';
+$language['admin_user_changes1']='geändert';
+$language['delete_link']='Löschen';
+$language['delete_link1']='Bearbeiten';
+$language['are_you_sure']='Bist du sicher';
+$language['kill_accound_sure']='Sicher das du den Accound löschen willst';
+$language['deletet_it']='Ja ,lösche es';
+$language['he_deletet']='wurde Gelöscht';
+
+
+
+
+
+//datenschutz.php
+$language['datasecret_h1']='Datenschutz Beispiel';
+$language['title_datenschtz']='Datenschutz Seite';
+$language['reset_time_to_click']='Klicken um den Logout wieder zu reseten';
+
+
+
+//register-email
+$language['atension']='Achtung';
+$language['info_register_email']='Sie haben eine Email erhalten mit aktivierungslink';
+$language['rigister_email_no_id']='Die Id gibt es nicht';
+$language['rigister_email_active_ok']='Der Accound wurde schon bestätigt';
+$language['error_regkey']='Fehler beim registrierungslink';
+$language['title_register_email_back']='Emailadresse bestätigen, Accound aktivieren';
+$language['active_your_accound_email_link']="Aktiviere deinen Accound";
+$language['accound_is_free']='Dein Accound ist jetzt freigeschaltet';
+
+
+
+
+$language['you_now_hacking']='Laß das hacken sein!!';
+
+
+
+?>
