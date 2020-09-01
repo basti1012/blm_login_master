@@ -1,0 +1,442 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+	font-family:Arial, Geneva, sans-serif;
+    text-align: center;
+    min-height:calc(100vh - 90px);
+}
+
+
+input#data_checkbox {
+    height: 30px;
+    width: 30px;
+}
+#indexpage{
+    background-image:url(images/back2.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+#logo{
+    width:120px;
+    background-position:0px -26px;
+    background-repeat:no-repeat;
+    background-image:url(images/apple-icon-120x120.png);
+}
+#deletepage,#emailaktivieren{
+    background-image:url(images/back2.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+#Kontaktformularseite{
+    background-image: url(images/back3.jpg);
+    background-size:100%;
+    min-height:100vh;
+    width:100%;
+}
+#bodyregister{
+    background-image:url(images/back4.jpg);
+    background-size:cover;
+    text-align:center;
+}
+#adminsystem{
+    background-image:url(images/back7.jpg);
+    background-size:cover;
+    text-align:center;
+}
+#secretpage{
+    background-image: url(images/back7.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    min-height:100vh;
+    width:100%;
+}
+#secretpage h1,#secretpage h3{
+    color:white;
+}
+
+#setpassword{
+    background-image: url(images/back8.jpeg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    min-height:100vh;
+    width:100%;
+}
+#profil_pages{
+    background-image:url(images/back7.jpg);
+    background-size:cover;
+    text-align:center;
+}
+
+
+
+#errorpage{
+    background-image: url(images/error.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+    min-height:100vh;
+    width:100%;
+}
+#errorpage h1,#errorpage h3{
+    color:white;
+    font-size:40px;
+}
+#Kontaktformularseite h1,#Kontaktformularseite h3{
+    color:white;
+}
+.kontaktformular  {
+	 width:  auto;
+     margin: 0px 0;
+     padding: 10%;
+     font-size: 13px;
+     color:white;
+}
+.kontaktformular fieldset {margin: 10px 0;	padding: 8px;}
+.kontaktformular a {color: #990000; text-decoration: none;}
+.kontaktformular a:hover {color: #483D8A;}
+.kontaktformular legend {
+	 background: #006794;
+	 color: #fff;
+	 padding: 3px 5px;
+	 border: 1px solid #ddd;
+	 text-transform: uppercase;
+}
+#logoutpage{
+    background-image:url(images/back4.jpg);
+    background-size:cover;
+    text-align:center;
+}
+
+#pwreset,#adminuser{
+    background-image: url(images/back8.jpeg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    min-height:100vh;
+    width:100%;
+}
+
+a.paginate_button {
+    border: 1px solid black;
+    padding: 3px 6px;
+    border-radius: 2px;
+    margin: 0 1px;
+    font-size: 20px;
+}
+.modal {
+    z-index: 11111 !important;
+}
+table{
+    width:100% !important;
+}
+table{
+    border:1px solid black;
+    border-collapse:collapse;
+}
+td,th{
+    border:1px solid black !important;
+}
+#adminuser table,#adminuser table td,#adminuser table th{
+    border:1px solid white !important;
+    color:white !important;
+}
+#adminuser,#adminuser h3,#adminuser h1{
+    color:white !important;
+}
+
+.header{
+	margin:auto;
+	margin-top:10px;
+	padding:15px;
+	width:70%;
+	border-radius:20px;
+	text-align:center;
+}
+.foot{
+	text-align:center;
+	width:60%;
+	border-radius:15px;
+	margin:auto;
+	padding:10px;
+	margin-top:20px;
+}
+.content{
+	width:65%;
+	border-radius:20px;
+	margin:auto;
+	padding:20px;
+	margin-top:20px;
+}
+ 
+.big{
+	font-size:1.2em;
+}
+.small{
+	font-size:0.7em;
+}
+.message{
+	border-radius:20px;
+	padding:20px;
+	margin:auto;
+	width:500px;
+	background:url('images/black_40p.png');
+	color:red;
+	text-align:center;
+	font-weight:bold;
+	margin-top:20px;
+}
+.messages_table td{
+	border-top:1px solid #aaaaaa;
+	vertical-align:top;
+}
+.author{
+	width:150px;
+	border-right:1px solid #aaaaaa;
+}
+.title_cell{
+	width:45%;
+}
+.date{
+	font-style:italic;
+	text-align:right;
+	font-size:0.9em;
+	margin-right:10px;
+}
+.link_new_pm{
+	font-size:1.3em;
+	font-weight:bold;
+	margin:5px 0px 5px 0px;
+	display:inline-block;
+	border:1px solid #dddddd;
+	background:#ffffff;
+	padding:5px;
+}
+.infotext{
+  display:none;
+  position:fixed;
+  z-index: 9999;
+  top:20px;
+  left:20px;
+  background:black;
+  min-width:200px;
+  width:80%;
+  max-width:600px;
+  border:2px solid red;
+  border-radius:10px;
+  padding:10px;
+  text-align:center;
+  color:white;
+}
+.info:hover >.infotext{
+  display:block;
+}
+.info{
+font-weight:900;
+  font-size:22px;
+}
+form{
+  width:80vw;
+  margin:0 auto;
+  border:3px solid grey;
+  border-radius:20px;
+  padding:20px;
+}
+form h1{
+  text-align:center;
+  text-decoration:underline;
+}
+form label{
+  margin:3px 0;
+  display:flex;
+}
+label p{
+  width:250px;
+}
+.succes{
+    font-size:25px;
+    color:green;
+}
+.error{
+    font-size:25px;
+    color:red;
+}
+.erstelle,.anmelden{
+    max-width:300px;
+    width:80vw;
+    text-align:center;
+}
+.input_feld {
+  width: 90%;
+  margin: 5px;
+  font-size: 18px;
+  background-color: #eee;
+  border: none;
+  height: 25px;
+  border-radius: 4px;
+  box-shadow: inset 0 0 4px #aaa;
+  color: #404040;
+  padding: 5px;
+}
+.input_feld_info{
+  width:calc(100% - 80px);
+}
+.input_feld:focus,
+.input_feld:hover {
+  box-shadow: 0 0 8px #4FBDEC;
+  outline-width: 0;
+}
+form.create{
+    text-align: center;
+}
+label {
+    text-align: center;
+    padding: 8px;
+}
+.links{
+    color:blue !important;
+    font-size:25px;
+}
+form {
+    background: rgba(0, 255, 255, 0.5)!important;
+    border-radius: 25px !important;
+    border: 5px solid #e3e3e3 !important;
+}
+legend {
+    text-align: center;
+    color: white !important;
+}
+.container{
+     padding:100px;
+}
+label{
+    text-align:center;
+    padding:8px;
+}
+        
+.message{
+    color:red;
+    font-weight:900;
+ }
+  
+.col-md-4 {
+   width:100% !inportant;
+}
+#success_message{ 
+    display: none;
+}
+        
+        
+        
+        
+        
+        
+  #background{
+    height:100vh;
+    display:none;
+    width:100vw;
+    position:fixed;
+    top:0;
+    z-index: 5999;
+    left:0;
+    bottom:0;
+    right:0;
+    background:rgba(2,2,2,0.7);
+}
+#result ,#scripte_result{
+    height: 80vh;
+    display: none;
+    width: 80vw;
+    min-width: 300px;
+    border: 3px solid white;
+    border-radius: 22px;
+    color: white;
+    padding: 20px;
+    background: rgba(25,25,120,0.9);
+    position: fixed;
+    z-index: 9999;
+    left: calc(50% - 40vw);
+    top: calc(50% - 40vh);
+    overflow:auto;
+}
+div#close,div#close1{
+    width: 30px;
+    height: 40px;
+    font-size: 28px;
+    margin: -22px 0 0 -23px;
+    line-height: 35px;
+    padding: 3px 13px 5px 3px;
+    text-align: center;
+    border: 2px solid white;
+    background: rgba(255,0,0,0.6);
+    border-top-left-radius: 18px;
+    cursor:pointer;
+}
+
+#close:hover,#close1:hover{
+    background:green;
+    color:red;
+}
+
+div#kill {
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    display: block;
+    height: 40px;
+    position: absolute;
+    width: calc(100% - 22px);
+    text-align: center;
+    margin-top: -22px;
+    margin-left: 5px;
+    border-top-right-radius: 18px;
+    border: 2px solid white;
+    cursor:pointer;
+}
+#kill:hover{
+color:lightred;
+}      
+        
+*::placeholder{
+     color:rgba(255,0,0,0.5);
+}
+.form-horizontal .form-group {
+    display: flex !important;
+}
+.col-md-4 {
+ 
+    display: flex;
+}
+.form-group *:not(.info) {
+    flex: 1;
+}     
+        img#geschlecht {
+    height: 20px;
+}
+        
+ div#example_wrapper {
+    overflow: hidden !important;
+}
+        
+        
+       footer{
+  width:100%;
+  height:40px;
+  position:fixed;
+  bottom:0;
+  background:black;
+  color:white;
+}
+footer ul{
+  display:flex;
+  justify-content:space-between;
+}
+footer ul li{
+  flex:0.2;
+  line-height:40px;
+  list-style:none;
+}
+footer ul li a{
+  color:white;
+} 
+        
