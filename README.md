@@ -14,7 +14,8 @@ Login Script mit  passwortreset ,aktivierungsemail,Admin oberfläche ,install da
 Adminame = 333<br>
 Password = 333<br>
 In der Admin Oberfläche können SIE den Email Text , Betreff , Absender und Header uxm ändern<br></p>
-<img src="https://raw.githubusercontent.com/basti1012/blm_login_master/master/install/install/admin.png" style="height:300px"><br>
-<p>Hier sehem sie wie der Benutzer seine Daten in sein Profil bearbeiten kann</p>
 <img src="https://github.com/basti1012/blm_login_master/blob/master/install/admin.png?raw=true" style="height:300px"><br>
+
+<p>Hier sehem sie wie der Benutzer seine Daten in sein Profil bearbeiten kann</p>
+<img src="https://github.com/basti1012/blm_login_master/master/install/install/admin.png" style="height:300px"><br>
 <p>Und jetzt geben sie die erforderlichen Daten an um die Installation fertig zu stellen</p>
